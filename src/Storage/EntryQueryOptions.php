@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Storage;
+namespace Lakridserne\Telescope\Storage;
 
 use Illuminate\Http\Request;
 

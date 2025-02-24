@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Watchers;
+namespace Lakridserne\Telescope\Watchers;
 
 use Illuminate\Mail\Events\MessageSent;
 use Laravel\Telescope\IncomingEntry;

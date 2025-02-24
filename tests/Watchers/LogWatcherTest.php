@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests\Watchers;
+namespace Lakridserne\Telescope\Tests\Watchers;
 
 use Laravel\Telescope\EntryType;
 use Laravel\Telescope\Tests\FeatureTestCase;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope;
+namespace Lakridserne\Telescope;
 
 use Illuminate\Contracts\Debug\ExceptionHandler;
 

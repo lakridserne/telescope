@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests\Watchers;
+namespace Lakridserne\Telescope\Tests\Watchers;
 
 use Exception;
 use Illuminate\Bus\Batchable;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Http\Controllers;
+namespace Lakridserne\Telescope\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

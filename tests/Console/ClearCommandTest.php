@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests\Console;
+namespace Lakridserne\Telescope\Tests\Console;
 
 use Illuminate\Support\Facades\DB;
 use Laravel\Telescope\Database\Factories\EntryModelFactory;

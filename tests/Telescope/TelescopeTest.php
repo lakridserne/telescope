@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests\Telescope;
+namespace Lakridserne\Telescope\Tests\Telescope;
 
 use Illuminate\Contracts\Bus\Dispatcher;
 use Illuminate\Contracts\Queue\ShouldQueue;

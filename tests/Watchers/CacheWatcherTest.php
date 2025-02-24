@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests\Watchers;
+namespace Lakridserne\Telescope\Tests\Watchers;
 
 use Illuminate\Contracts\Cache\Repository;
 use Laravel\Telescope\EntryType;

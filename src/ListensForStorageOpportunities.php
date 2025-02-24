@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope;
+namespace Lakridserne\Telescope;
 
 use Illuminate\Queue\Events\JobExceptionOccurred;
 use Illuminate\Queue\Events\JobFailed;

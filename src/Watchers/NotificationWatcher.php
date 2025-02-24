@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Watchers;
+namespace Lakridserne\Telescope\Watchers;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;

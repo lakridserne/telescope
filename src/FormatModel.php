@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope;
+namespace Lakridserne\Telescope;
 
 use BackedEnum;
 use Illuminate\Database\Eloquent\Relations\Pivot;

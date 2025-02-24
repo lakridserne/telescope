@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests\Watchers;
+namespace Lakridserne\Telescope\Tests\Watchers;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;

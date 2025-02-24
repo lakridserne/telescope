@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Watchers;
+namespace Lakridserne\Telescope\Watchers;
 
 use Illuminate\Support\Str;
 use Laravel\Telescope\FormatModel;

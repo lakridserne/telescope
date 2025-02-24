@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope;
+namespace Lakridserne\Telescope;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;

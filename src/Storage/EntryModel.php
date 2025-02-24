@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Storage;
+namespace Lakridserne\Telescope\Storage;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

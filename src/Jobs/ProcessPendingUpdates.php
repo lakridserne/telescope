@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Jobs;
+namespace Lakridserne\Telescope\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

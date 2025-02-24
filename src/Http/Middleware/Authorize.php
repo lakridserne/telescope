@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Http\Middleware;
+namespace Lakridserne\Telescope\Http\Middleware;
 
 use Laravel\Telescope\Telescope;
 

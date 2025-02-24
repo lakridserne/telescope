@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Http\Controllers;
+namespace Lakridserne\Telescope\Http\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;

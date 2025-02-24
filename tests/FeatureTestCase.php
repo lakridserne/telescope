@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests;
+namespace Lakridserne\Telescope\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Queue\Queue;

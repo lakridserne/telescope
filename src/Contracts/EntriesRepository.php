@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Contracts;
+namespace Lakridserne\Telescope\Contracts;
 
 use Illuminate\Support\Collection;
 use Laravel\Telescope\EntryResult;

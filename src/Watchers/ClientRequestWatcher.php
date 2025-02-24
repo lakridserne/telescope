@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Watchers;
+namespace Lakridserne\Telescope\Watchers;
 
 use Illuminate\Http\Client\Events\ConnectionFailed;
 use Illuminate\Http\Client\Events\ResponseReceived;

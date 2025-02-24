@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Database\Factories;
+namespace Lakridserne\Telescope\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Laravel\Telescope\EntryType;

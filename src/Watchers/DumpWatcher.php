@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Watchers;
+namespace Lakridserne\Telescope\Watchers;
 
 use Exception;
 use Illuminate\Contracts\Cache\Factory as CacheFactory;

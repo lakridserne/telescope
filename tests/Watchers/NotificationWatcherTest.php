@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests\Watchers;
+namespace Lakridserne\Telescope\Tests\Watchers;
 
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification as BaseNotification;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope;
+namespace Lakridserne\Telescope;
 
 use Illuminate\Support\Str;
 use Laravel\Telescope\Contracts\EntriesRepository;

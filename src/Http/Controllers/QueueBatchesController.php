@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Http\Controllers;
+namespace Lakridserne\Telescope\Http\Controllers;
 
 use Illuminate\Bus\BatchRepository;
 use Laravel\Telescope\Contracts\EntriesRepository;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Watchers;
+namespace Lakridserne\Telescope\Watchers;
 
 use Illuminate\Auth\Access\Events\GateEvaluated;
 use Illuminate\Auth\Access\Response;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Watchers;
+namespace Lakridserne\Telescope\Watchers;
 
 use Illuminate\Bus\Events\BatchDispatched;
 use Laravel\Telescope\IncomingEntry;

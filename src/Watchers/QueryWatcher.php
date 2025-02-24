@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Watchers;
+namespace Lakridserne\Telescope\Watchers;
 
 use Illuminate\Database\Events\QueryExecuted;
 use Laravel\Telescope\IncomingEntry;

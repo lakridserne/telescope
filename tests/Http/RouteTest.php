@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests\Http;
+namespace Lakridserne\Telescope\Tests\Http;
 
 use Illuminate\Foundation\Http\Middleware\ValidateCsrfToken;
 use Illuminate\Testing\TestResponse;

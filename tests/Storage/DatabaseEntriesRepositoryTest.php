@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests\Storage;
+namespace Lakridserne\Telescope\Tests\Storage;
 
 use Laravel\Telescope\Database\Factories\EntryModelFactory;
 use Laravel\Telescope\EntryUpdate;

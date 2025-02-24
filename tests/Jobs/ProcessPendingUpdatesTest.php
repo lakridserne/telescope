@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests\Storage;
+namespace Lakridserne\Telescope\Tests\Storage;
 
 use Illuminate\Support\Facades\Bus;
 use Laravel\Telescope\Contracts\EntriesRepository;

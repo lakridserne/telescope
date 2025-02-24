@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Watchers;
+namespace Lakridserne\Telescope\Watchers;
 
 use Illuminate\Console\Events\CommandStarting;
 use Illuminate\Console\Scheduling\CallbackEvent;

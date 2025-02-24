@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests\Console;
+namespace Lakridserne\Telescope\Tests\Console;
 
 use Laravel\Telescope\Database\Factories\EntryModelFactory;
 use Laravel\Telescope\Tests\FeatureTestCase;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Console;
+namespace Lakridserne\Telescope\Console;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Attribute\AsCommand;

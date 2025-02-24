@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Tests\Telescope;
+namespace Lakridserne\Telescope\Tests\Telescope;
 
 use Illuminate\Mail\Mailable;
 use Laravel\Telescope\Database\Factories\EntryModelFactory;

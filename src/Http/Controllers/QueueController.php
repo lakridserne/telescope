@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Telescope\Http\Controllers;
+namespace Lakridserne\Telescope\Http\Controllers;
 
 use Laravel\Telescope\Contracts\EntriesRepository;
 use Laravel\Telescope\EntryType;
