@@ -5,6 +5,7 @@ namespace Laravel\Telescope\Storage;
 use DateTimeInterface;
 use Illuminate\Database\UniqueConstraintViolationException;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Crypt;
 use Illuminate\Support\Facades\DB;
 use Laravel\Telescope\Contracts\ClearableRepository;
 use Laravel\Telescope\Contracts\EntriesRepository as Contract;
@@ -143,7 +144,7 @@ class DatabaseEntriesRepository implements Contract, ClearableRepository, Prunab
 
         $entries->chunk($this->chunkSize)->each(function ($chunked) use ($table) {
             $table->insert($chunked->map(function ($entry) {
-                $entry->content = json_encode($entry->content, JSON_INVALID_UTF8_SUBSTITUTE);
+                $entry->content = Crypt::encrypt(json_encode($entry->content, JSON_INVALID_UTF8_SUBSTITUTE));
 
                 return $entry->toArray();
             })->toArray());
@@ -171,10 +172,10 @@ class DatabaseEntriesRepository implements Contract, ClearableRepository, Prunab
 
                 return array_merge($exception->toArray(), [
                     'family_hash' => $exception->familyHash(),
-                    'content' => json_encode(array_merge(
+                    'content' => Crypt::encrypt(json_encode(array_merge(
                         $exception->content, ['occurrences' => $occurrences + 1]
                     )),
-                ]);
+                ]));
             })->toArray());
         });
 
@@ -228,7 +229,7 @@ class DatabaseEntriesRepository implements Contract, ClearableRepository, Prunab
             }
 
             $content = json_encode(array_merge(
-                json_decode($entry->content ?? $entry['content'] ?? [], true) ?: [], $update->changes
+                json_decode($entry->content ?? Crypt::decrypt($entry['content']) ?? [], true) ?: [], $update->changes
             ));
 
             $this->table('telescope_entries')
